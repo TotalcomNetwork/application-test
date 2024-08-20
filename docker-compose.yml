@@ -47,7 +47,7 @@ services:
 
 
   webserver:
-    image: davidetriso/nginx:latest
+    image: davidetriso/nginx:stable-alpine
     ports:
       - 3050:80
     volumes:
